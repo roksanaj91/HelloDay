@@ -1,0 +1,108 @@
+$firstColor: #33CCFF;
+$secondColor: #66CCFF;
+
+@mixin basicSettings(){
+    word-wrap: break-word;
+    text-align: center;
+    padding: 5px;
+}
+@mixin flexSettings($direction){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: center;
+    align-content: center;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+}
+.mainContainer{
+    @include basicSettings();
+    background-color: #99CCFF;
+    height: 100%;
+    overflow: auto;
+    background-image: url(../imgs/back.jpeg);
+    background-position: center center;
+    background-size: cover;
+    @include flexSettings(column);
+    justify-items: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.glassContainer{
+    @include basicSettings();
+    margin: 30px;
+    background: rgba( 255, 255, 255, 0.50 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    max-width: 1000px;
+}
+.weatherContainer{
+    @include basicSettings();
+}
+.weatherContainer__img{
+    height: 200px;
+    width: 200px;
+}
+.weatherContainer__desc{
+    @include basicSettings();
+}
+.weatherContainer__temperature{
+    margin-top: 15px;
+}
+.weatherContainer__wind{
+    margin-bottom: 50px;
+}
+.quotesContainer{
+    @include basicSettings();
+    @include flexSettings(column);
+    justify-content: center;
+}
+.quotesContainer{
+    padding: 5px 35px;
+}
+.quotesContainer__figcaption-blockquote{
+    padding: 5px;
+}
+.authorContainer{
+    @include basicSettings();
+    font-size: 8px;
+    font-style: italic;
+}
+
+// media
+//extra-small
+@media (max-width: 575px) {
+    .weatherContainer__img{
+        width: 100px;
+        height: 100px;
+    }    
+}
+// Medium devices
+@media (max-width: 991px) { 
+    .authorContainer{
+        margin-top: 50px;
+    }
+ }
+ @media (min-width: 992px){
+    .glassContainer{
+        @include flexSettings(row);
+    }
+    .weatherContainer{
+        min-width: 350px;
+    }
+    .quotesContainer{
+        position: relative;
+    }
+    .authorContainer{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+ }

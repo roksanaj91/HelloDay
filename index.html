@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=980">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Hello Day!</title>
+</head>
+<body>
+    <div class="mainContainer">
+        <div class="glassContainer">
+            <div class="weatherContainer">
+                <div id="icon" class="weatherContainer__icon">
+                    <figure id="weatherContainer__figureImg">
+                        <img src="" alt="weatherIcon" id="iconId" class="weatherContainer__img"></img>
+                        <figcaption id="weatherContainer__figureImg__figcaption" class="weatherContainer__desc"></figcaption>
+                    </figure>
+                </div>
+                <div id="temperature" class="weatherContainer__temperature weatherContainer__desc"></div>
+                <div id="pressure" class="weatherContainer__pressure weatherContainer__desc"></div>
+                <div id="wind" class="weatherContainer__wind weatherContainer__desc"></div>
+            </div>
+            <div class="quotesContainer">
+                <figure id="quotesContainer__figure-blockquote" class="quotesContainer__figure-blockquote">
+                    <blockquote class="quotesContainer__blockquote">
+                            <p id="quotesContainer__blockquote__text" class="quotesContainer__blockquote__text"></p>
+                    </blockquote>
+                    <figcaption class="quotesContainer__figcaption-blockquote"></figcaption>
+                </figure>
+                <div class="authorContainer">
+                    <p class="authorContainer__text">Made by Roksana Jachymczyk</p>
+                </div>
+            </div>            
+        </div>
+    </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="index.js"></script>
+   </body>
+</html>
