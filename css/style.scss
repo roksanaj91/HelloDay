@@ -45,6 +45,7 @@ body{
 }
 .weatherContainer{
     @include basicSettings();
+    
 }
 .weatherContainer__img{
     height: 200px;
@@ -52,6 +53,7 @@ body{
 }
 .weatherContainer__desc{
     @include basicSettings();
+    text-transform: capitalize;
 }
 .weatherContainer__temperature{
     margin-top: 15px;
