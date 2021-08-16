@@ -1,11 +1,24 @@
 # HelloDay(ENG)
+Technologies:
+* HTML
+* SASS
+* JavaScript with JQuery
 
+API:
+* openweathermap.org 
+* quotes.rest
+
+Main features of the project:
+* displaying the current weather for the city of Łódź
+* changing the weather icon and background depend on weather and hour(day or night)
+* displaying the quote of the day
 
 # HelloDay(PL)
 Technologie:
 * HTML
 * SASS
 * JavaScript wraz z JQuery
+
 API:
 * openweathermap.org 
 * quotes.rest
