@@ -2,8 +2,13 @@
 
 
 # HelloDay(PL)
-Projekt HelloDay został napisany za pomocą HTML, SASS oraz JavaScript oraz JQuery.\
-Wkorzystałam tutaj następujące API: openweathermap.org oraz quotes.rest
+Technologie:
+* HTML
+* SASS
+* JavaScript wraz z JQuery
+API:
+* openweathermap.org 
+* quotes.rest
 
 Główne fuknkcjonalości projektu:
 * wyświetlanie aktualnej pogody dla miasta Łódź
