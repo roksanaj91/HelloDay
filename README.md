@@ -13,6 +13,8 @@ Main features of the project:
 * changing the weather icon and background depend on weather and hour(day or night)
 * displaying the quote of the day
 
+In the project, I use my own weather graphics designed in GIMP.
+
 # HelloDay(PL)
 Technologie:
 * HTML
