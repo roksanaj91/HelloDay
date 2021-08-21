@@ -35,4 +35,6 @@ W projekcie wykorzystuję własne ikony pogody stworzone w GIMP.
 ![image](https://user-images.githubusercontent.com/44161825/129602399-0cbf0c7f-7a97-4498-aa32-31f0e70afa01.png)
 ![image](https://user-images.githubusercontent.com/44161825/129602607-8d208fd5-c7de-4ee5-91e9-ee8ae3b1ec67.png)
 ![image](https://user-images.githubusercontent.com/44161825/129602724-a23acad8-4ec9-44ca-ad86-2dfdbb7a4b3a.png)
+![image](https://user-images.githubusercontent.com/44161825/130309871-459f8b20-42fa-4d17-9818-b0344c465ef3.png)
+
 
